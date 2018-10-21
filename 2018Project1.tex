@@ -1,0 +1,64 @@
+\documentclass[12pt, twoside]{article}
+\bibliographystyle{plain}
+\bibliography{Project1}
+\usepackage{jmlda}
+%\NOREVIEWERNOTES
+\title
+    [Прогнозирование направления движения цены биржевых инструментов по новостному потоку ] % Краткое название; не нужно, если полное название влезает в~колонтитул
+    {Прогнозирование направления движения цены биржевых инструментов по новостному потоку.}
+\author
+    {Ахияров~В.,\, Борисов~А.,\, Говоров~И.,\, Дробин~М.,\, Мухитдинова~С.,\, Родионов~В. } % основной список авторов, выводимый в оглавление
+
+\email
+    {akhiarov.va@phystech.edu,\, borisov.as@phystech.edu,\, govorov.is@phystech.edu,\, drobin.me@phystech.edu,\, muhitdinova.sm@phystech.edu,\, rodionov.vo@phystech.edu}
+
+\organization
+    {МФТИ (ГУ)}
+\abstract
+    { \textbf{Аннотация}: В работе рассматривается задача классификации направления движения временных рядов. 
+Классификация производится с помощью анализа признаков из отчётов 8-K, которые компании обязаны заполнять 
+при значительных событиях, таких как банкротство, выбор совета директоров и пр. 
+Рассматривается несколько моделей классификации. 
+В одних используются только признаки из отчётов, 1-граммы которых встречающиеся более 10 раз. 
+В других к предыдущему этапу применяется неотрицательная матричная факторизация (NMF). 
+И в последней, ансамбле, объединяются предыдущие подходы путём голосования большинства. 
+В качестве прикладной задачи рассматривается задача распознавания направления движения акций по новостям, выраженных 
+отчётами 8-K. 
+Модели классификации, исследованные в этой 
+работе, сравнивается в точности и статистической значимости с простыми моделями, использующими только прогнозируемый показатель доход на акцию 
+или использующую только финансовые показатели. 
+
+\bigskip
+
+\textbf{Ключевые слова}:  \emph{метрическая классификация, анализ текстов, классификация 
+временных рядов, новостной поток}
+}
+
+\begin{document}
+\maketitle
+%\linenumbers
+
+\begin{thebibliography}{9}
+\bibitem{journals/ijon/HuTZW18}
+Hongping Hu, Li Tang, Shuhua Zhang, Haiyan Wang (2018) \emph{Predicting the direction of stock markets using optimized neural networks with Google Trends}, Neurocomputing.
+
+\bibitem{conf/clef/KuznetsovMKS16}
+Mikhail Kuznetsov, Anastasia Motrenko, Rita Kuznetsova, Vadim Strijov (2016) \emph{Methods for Intrinsic Plagiarism Detection and Author Diarization}, CLEF (Working Notes).
+
+\bibitem{conf/lrec/LeeSMJ14}
+Heeyoung Lee, Mihai Surdeanu, Bill MacCartney, Dan Jurafsky (2014) \emph{On the Importance of Text Analysis for Stock Price Prediction}, Proceedings of the Ninth International Conference on Language Resources and Evaluation.
+
+\bibitem{journals/corr/abs-1711-04154}
+Anna Potapenko, Artem Popov, Konstantin Vorontsov (2017) \emph{Interpretable probabilistic embeddings: bridging the gap between topic models and neural networks}, CoRR.
+
+\bibitem{Sun2016}
+Andrew Sun, Michael Lachanski, Frank J. Fabozzi (2016) \emph{Trade the tweet: Social media text mining and sparse matrix factorization for stock market prediction}, International Review of Financial Analysis.
+
+\bibitem{Usmanova2018TimeSeriesCorrelation}
+Усманова К. Р., Кудияров С. П., Мартышкин Р. В., Замковои А. А., Стрижов В. В. (2018) \emph{Анализ зависимостей между показателями при прогнозировании объема грузоперевозок}, Системы и средства информатики.
+\end{thebibliography}
+
+
+
+
+\end{document}
