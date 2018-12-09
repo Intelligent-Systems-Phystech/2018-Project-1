@@ -1,0 +1,17 @@
+dataset,model,scorer,best_params,val_score,test_score
+consumer_goods,xgb,roc-auc,"{'gamma': 0.25, 'max_depth': 10, 'n_estimators': 20}",0.6462162162162163,0.6696428571428571
+consumer_goods,rf,roc-auc,{'n_estimators': 200},0.6556756756756756,0.6674107142857143
+consumer_goods,logit,roc-auc,"{'C': 0.1, 'penalty': 'l1'}",0.6802702702702703,0.5848214285714286
+consumer_goods,svm,roc-auc,"{'C': 0.1, 'class_weight': None}",0.5643243243243243,0.5245535714285714
+consumer_goods,xgb,f1,"{'gamma': 0.25, 'max_depth': 10, 'n_estimators': 20}",0.5333333333333333,0.5614035087719298
+consumer_goods,svm,f1,"{'C': 0.1, 'class_weight': None}",0.5517241379310345,0.4
+consumer_goods,logit,f1,"{'C': 100, 'penalty': 'l1'}",0.6153846153846154,0.3548387096774193
+consumer_goods,rf,f1,{'n_estimators': 10},0.5084745762711864,0.32653061224489793
+banks,svm,roc-auc,"{'C': 100, 'class_weight': None}",0.6022727272727273,0.584914182475158
+banks,logit,roc-auc,"{'C': 100, 'penalty': 'l2'}",0.5193181818181818,0.5060975609756098
+banks,xgb,roc-auc,"{'gamma': 0.25, 'max_depth': 10, 'n_estimators': 20}",0.5761363636363637,0.4823848238482385
+banks,rf,roc-auc,{'n_estimators': 200},0.5306818181818181,0.4726738934056008
+banks,svm,f1,"{'C': 0.1, 'class_weight': 'balanced'}",0.5982142857142858,0.44961240310077527
+banks,logit,f1,"{'C': 100, 'penalty': 'l1'}",0.4606741573033708,0.33613445378151263
+banks,xgb,f1,"{'gamma': 0.25, 'max_depth': 10, 'n_estimators': 20}",0.4090909090909091,0.15384615384615383
+banks,rf,f1,{'n_estimators': 200},0.2608695652173913,0.03125
