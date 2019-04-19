@@ -2,7 +2,7 @@
 Прогнозирование направления движения цены биржевых инструментов по новостному потоку.
 
 * Авторы
-Дробин М., Говоров И., Родионов В. , Акхиаров В., Борисов А., Мухитдинова С.
+Говоров И., Родионов В. , Акхиаров В., Борисов А.
 
 
 МФТИ(ГУ)
@@ -17,10 +17,11 @@
 Отличительная особенность работы - применение [[http://www.machinelearning.ru/wiki/images/1/11/Usmanova2018CCM_PLS.pdf][cходящегося перекрестного отображения]] для обоснования связи временных рядов.
  
 * Ключевые слова
-метрическая классификация, анализ текстов, классификация временных рядов
+метрическая классификация, анализ текстов, классификация временных рядов, биржевые инструменты, 8-K, новостной поток
 
 * Литература:
 1. Usmanova K.R., Kudiyarov S.P., Martyshkin R.V., Zamkovoy A.A., Strijov V.V. Analysis of relationships between indicators in forecasting cargo transportation // Systems and Means of Informatics, 2018, 28(3).
 2. Kuznetsov M.P., Motrenko A.P., Kuznetsova M.V., Strijov V.V. Methods for intrinsic plagiarism detection and author diarization // Working Notes of CLEF, 2016, 1609 : 912-919.
 3. Айсина Роза Мунеровна, Тематическое моделирование финансовых потоков корпоративных клиентов банка по транзакционным данным, выпускная квалификационная работа.
 4. [[https://nlp.stanford.edu/pubs/lrec2014-stock.pdf][Lee, Heeyoung, et al. "On the Importance of Text Analysis for Stock Price Prediction." LREC. 2014.]]
+4. James Owen Weatherall The Physics of Wall Street: A Brief History of Predicting the Unpredictable Paperback – February 4, 2014
